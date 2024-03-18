@@ -21,4 +21,4 @@ export default nextConfig;
 //   // distDir: 'dist',
 // }
  
-module.exports = nextConfig
+// module.exports = nextConfig
