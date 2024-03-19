@@ -32,6 +32,12 @@ export function Navbar({ className }: { className?: string }) {
             </MenuItem>
             </Link>
 
+            <MenuItem setActive={setActive} active={active} item="Sign up">
+            </MenuItem>
+
+            <MenuItem setActive={setActive} active={active} item="Login">
+            </MenuItem>
+
         </Menu>
         
     </div>
