@@ -12,7 +12,7 @@ import { Button } from "./ui/moving-border";
         fill="white"
       />
       <div className="p-4 relative z-10 w-full text-center mt-20">
-         <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 mb-4">eZ Form</h1>
+         <h1 className="mt-20 md:mt-0 text-9xl md:text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 mb-4">eZ Form</h1>
          <h3 className="mt-20 md:mt-0 text-1xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 mb-4">By formFusion</h3>
          <p className="mt-20 font-medium">Worrying about filling form?</p>
          <p className="font-semibold">Not again!</p>
