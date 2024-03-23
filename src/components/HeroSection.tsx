@@ -33,4 +33,4 @@ import { Button } from "./ui/moving-border";
   )
 }
 
-export default HeroSection
+export default HeroSection;
