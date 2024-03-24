@@ -13,7 +13,7 @@ function Featured() {
           <p></p>
         </div>
       </div>
-      <div className='m-10 flex text-center justify-center gap-x-96 gap-y-36 flex-wrap font-semibold bg-black p-10 rounded-full'>
+      <div className='m-10 flex text-center justify-center gap-x-96 gap-y-36 flex-wrap font-semibold bg-black p-10 rounded-3xl'>
         <BackgroundGradient><div className="flex justify-center p-6">Easy</div></BackgroundGradient>
         <BackgroundGradient><div className="flex justify-center p-6">User-friendly</div></BackgroundGradient>
         <BackgroundGradient><div className="flex justify-center p-6">Simple</div></BackgroundGradient>
@@ -23,7 +23,7 @@ function Featured() {
         <BackgroundGradient><div className="flex justify-center p-6">Convenient</div></BackgroundGradient>
         <BackgroundGradient><div className="flex justify-center p-6">Smooth</div></BackgroundGradient>
       </div>
-      <div className='mt-20 text-center'>
+      {/* <div className='mt-20 text-center'>
         <Link href={"/"}>
           <Button
             borderRadius="1.75rem"
@@ -32,7 +32,7 @@ function Featured() {
             View All
           </Button>
         </Link>
-      </div>
+      </div> */}
     </div>
   )
 }
