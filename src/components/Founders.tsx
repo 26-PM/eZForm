@@ -24,7 +24,7 @@ function Founders() {
         <WavyBackground>
         <h2 className='text-2xl md:text-4xl lg:text-7xl'>Meet Our Devs</h2>
         <p>Unlock the minds behind the code.</p>
-        <div className='flex items-center justify-center'>
+        <div className='flex items-center justify-center mt-10'>
             <AnimatedTooltip items={people}/>
         </div>
         </WavyBackground></div>
