@@ -2,6 +2,7 @@ import HeroSection from "@/components/HeroSection";
 import Featured from "@/components/Featured";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import TestimonialsCards from "@/components/TestimonialsCards";
+import Founders from "@/components/Founders";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Featured/>
       <WhyChooseUs/>
       <TestimonialsCards/>
+      <Founders/>
     </div>
   );
 }
