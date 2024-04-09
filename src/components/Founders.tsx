@@ -20,8 +20,8 @@ const people = [
 
 function Founders() {
   return (
-    <div className='relative'>
-        <WavyBackground>
+    <div className='relative flex items-center justify-center'>
+        <WavyBackground className='w-full flex flex-col items-center justify-center'>
         <h2 className='text-2xl md:text-4xl lg:text-7xl'>Meet Our Devs</h2>
         <p>Unlock the minds behind the code.</p>
         <div className='flex items-center justify-center mt-10'>

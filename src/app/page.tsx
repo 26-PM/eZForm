@@ -12,8 +12,9 @@ export default function Home() {
       <Featured/>
       <WhyChooseUs/>
       <TestimonialsCards/>
-      <Footer/>
       <Founders/>
+      <Footer/>
+      
       
     </div>
   );
