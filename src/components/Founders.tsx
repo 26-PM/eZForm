@@ -20,7 +20,7 @@ const people = [
 
 function Founders() {
   return (
-    <div className='relative h-[10rem]'>
+    <div className='relative'>
         <WavyBackground>
         <h2 className='text-2xl md:text-4xl lg:text-7xl'>Meet Our Devs</h2>
         <p>Unlock the minds behind the code.</p>

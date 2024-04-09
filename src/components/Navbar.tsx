@@ -14,20 +14,20 @@ export function Navbar({ className }: { className?: string }) {
 
             <MenuItem setActive={setActive} active={active} item="Home">
               <div className="flex flex-col text-sm space-y-4">
-                <HoveredLink href="/home">Home Page</HoveredLink>
+                <HoveredLink href="/">Home Page</HoveredLink>
               </div>
             </MenuItem>
             
             <MenuItem setActive={setActive} active={active} item="Our Services">
             <div className="flex flex-col text-sm space-y-4">
-              <HoveredLink href="/services">All Services</HoveredLink>
+              <HoveredLink href="/">All Services</HoveredLink>
             </div>
             </MenuItem>
 
-            <Link href={"/contact"}>
+            <Link href={"/"}>
             <MenuItem setActive={setActive} active={active} item="Contact">
             <div className="flex flex-col text-sm space-y-4">
-            <HoveredLink href="/contact">Contact us</HoveredLink>
+            <HoveredLink href="/">Contact us</HoveredLink>
             </div>
             </MenuItem>
             </Link>
