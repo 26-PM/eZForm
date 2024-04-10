@@ -13,15 +13,15 @@ function Featured() {
           <p></p>
         </div>
       </div>
-      <div className='m-10 flex text-center justify-center gap-x-96 gap-y-14 flex-wrap font-semibold bg-black p-10 rounded-3xl'>
+      <div className='m-10 flex text-center justify-center gap-x-96 gap-y-14 flex-wrap bg-black p-10 rounded-3xl'>
         <BackgroundGradient><div className="flex justify-center p-8">Easy</div></BackgroundGradient>
         <BackgroundGradient><div className="flex justify-center p-8">User-friendly</div></BackgroundGradient>
         <BackgroundGradient><div className="flex justify-center p-8">Simple</div></BackgroundGradient>
         <BackgroundGradient><div className="flex justify-center p-8">Seamless</div></BackgroundGradient>
         <BackgroundGradient><div className="flex justify-center p-8">Hassle-free</div></BackgroundGradient>
         <BackgroundGradient><div className="flex justify-center p-8">Streamlined</div></BackgroundGradient>
-        <BackgroundGradient><div className="flex justify-center p-8">Convenient</div></BackgroundGradient>
-        <BackgroundGradient><div className="flex justify-center p-8">Smooth</div></BackgroundGradient>
+        {/* <BackgroundGradient><div className="flex justify-center p-8">Convenient</div></BackgroundGradient>
+        <BackgroundGradient><div className="flex justify-center p-8">Smooth</div></BackgroundGradient> */}
       </div>
       {/* <div className='mt-20 text-center'>
         <Link href={"/"}>
