@@ -30,6 +30,7 @@ function Footer() {
             <p>123 Random Street, City, State, India</p>
           </div>
         </div>
+          <p className="text-center font-xs pt-8">Copyright © 2024 PM</p>
     </div>
   )
 }
