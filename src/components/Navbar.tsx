@@ -19,11 +19,13 @@ export function Navbar({ className }: { className?: string }) {
             </MenuItem>
             </Link>
             
+            <Link href={"/services"}>
             <MenuItem setActive={setActive} active={active} item="Our Services">
             <div className="flex flex-col text-sm space-y-4">
               <HoveredLink href="/services">All Services</HoveredLink>
             </div>
             </MenuItem>
+            </Link>
 
             <Link href={"/contact"}>
             <MenuItem setActive={setActive} active={active} item="Contact">
