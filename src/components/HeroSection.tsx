@@ -25,7 +25,7 @@ import { WavyBackground } from "./ui/wavy-background";
         <Link href={"#whyChooseUs"}>
         <Button
         borderRadius="1.75rem"
-        className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+        className="bg-black text-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
       >
         Explore More
       </Button>
