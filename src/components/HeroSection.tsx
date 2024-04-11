@@ -22,7 +22,7 @@ import { WavyBackground } from "./ui/wavy-background";
          <p className="">We'll take care of the forms for you.</p>
       </div>
       <div className="mt-10 font-semibold">
-        <Link href={"/"}>
+        <Link href={"#whyChooseUs"}>
         <Button
         borderRadius="1.75rem"
         className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"

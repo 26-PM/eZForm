@@ -39,7 +39,7 @@ const content=[
 
 function WhyChooseUs() {
   return (
-    <div>
+    <div id="whyChooseUs">
         <h2 className="bg-slate-900 rounded-3xl p-10 text-xl m-4">At eZ Form, we understand the frustration and time-consuming nature of filling out forms. That's why we've dedicated ourselves to simplifying this process for you. Here are just a few reasons why you should choose us:
         </h2>
     <StickyScroll content={content}/>
