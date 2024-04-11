@@ -6,10 +6,10 @@ import { BackgroundGradient } from './ui/background-gradient';
 
 function Featured() {
   return (
-    <div className='py-12 '>
+    <div className='py-12 bg-slate-950'>
       <div>
         <div className="text-center">
-          <h2 className="text-xl font-extrabold text-white sm:text-5xl">Features</h2>
+          <h2 className="text-4xl md:text-6xl font-extrabold text-white">Features</h2>
           <p></p>
         </div>
       </div>
