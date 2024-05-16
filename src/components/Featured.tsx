@@ -6,7 +6,7 @@ import { BackgroundGradient } from './ui/background-gradient';
 
 function Featured() {
   return (
-    <BackgroundGradient className='bg-white dark:bg-zinc-950'><div className='p-8'>
+    <BackgroundGradient className='bg-white dark:bg-zinc-950 rounded-3xl'><div className='p-8'>
       <div>
         <div className="text-center">
           <h2 className="text-4xl md:text-6xl font-extrabold text-white">Features</h2>
